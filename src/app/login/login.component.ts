@@ -48,7 +48,6 @@ export class LoginComponent implements OnInit {
         window.location.href = '#/dashboard';
         // this.router.navigate(['/dashboard']);
       });
-      console.log(token);
     });
   }
 
